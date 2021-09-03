@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+nav {
+    margin-left: auto;
+}
+
+
+#about-me{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#about-me p{
+    max-width: 40%;
+    margin: 20px;
+
+}
