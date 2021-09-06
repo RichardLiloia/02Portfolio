@@ -1,11 +1,20 @@
+body {
+    color:rgb(100, 28, 28);
+    background-color:rgb(221, 191, 146);
+  
+}
+
+
 header {
     display: flex;
     flex-direction: row;
-    
+   
 }
 
 nav {
-    margin-left: auto;
+    margin-inline: auto;
+    font-size:34px;
+    margin-top: 20px;
 }
 
 
@@ -17,7 +26,57 @@ nav {
 }
 
 #about-me p{
-    max-width: 40%;
+    max-width: 50%;
     margin: 20px;
+    
+}
 
+article{
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(100, 28, 28);
+    flex-wrap:wrap;
+    max-width: 15%
+}
+
+p {
+    font-size: large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 28, 28);
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 28, 28);
+}
+
+    
+ nav a {
+     font-size: x-large;
+     font-family:Arial, Helvetica, sans-serif;
+ }
+
+
+.flex-item {
+    flex-direction: row;
+    flex-wrap:wrap ;
+}
+
+img {
+    max-width:400px;
+    border-style: groove;
+    border-width: thick;
+    border-color: rgb(100, 28, 28);
+
+}
+
+h4 {
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(100, 28, 28)
 }
