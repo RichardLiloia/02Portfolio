@@ -68,10 +68,7 @@ h1 {
 }
 
 img {
-    max-width:400px;
-    border-style: groove;
-    border-width: thick;
-    border-color: rgb(100, 28, 28);
+    max-width:1050px;
 
 }
 
@@ -80,3 +77,27 @@ h4 {
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(100, 28, 28)
 }
+
+.flex-container {
+    align-items:center;
+    flex-direction:row;
+    display:flex;
+    flex-flow:wrap;
+    align-items:center;
+    padding-left: 175px;
+}
+
+h3 {
+    font-size:20pt;
+    font-weight: 700;
+    color: rgb(100, 28, 28);
+    text-align:start;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        float:none;
+        padding-left:0;
+    }
+}
+
